@@ -1,5 +1,5 @@
-import {BsCheckCircleFill, BsArrowUp, BsQuestionCircleFill} from "react-icons/bs";
-import {HiFlag} from "react-icons/hi";
+import {BsCheckCircleFill} from "react-icons/bs";
+// import {HiFlag} from "react-icons/hi";
 
 const index = () => {
     return (
@@ -37,4 +37,4 @@ const index = () => {
 export default index
 
 
-//red
+//red BsArrowUp, BsQuestionCircleFill

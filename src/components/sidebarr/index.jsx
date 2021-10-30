@@ -1,5 +1,5 @@
-import { BsPlus, BsCodeSlash, BsFillFileCheckFill} from 'react-icons/bs';
-import { FaBook, FaPoo } from 'react-icons/fa';
+import {  BsCodeSlash, BsFillFileCheckFill} from 'react-icons/bs';
+import { FaBook } from 'react-icons/fa';
 import {MdShowChart} from 'react-icons/md';
 import {GiBookPile} from 'react-icons/gi';
 import {RiStackFill} from 'react-icons/ri';
@@ -79,14 +79,14 @@ const SideBar = () => {
   );
 };
 
-const SideBarIcon = ({ icon, text = 'tooltip 💡' }) => (
-  <div className="sidebar-icon group">
-    {icon}
-    <span class="sidebar-tooltip group-hover:scale-100">
-      {text}
-    </span>
-  </div>
-);
+// const SideBarIcon = ({ icon, text = 'tooltip 💡' }) => (
+//   <div className="sidebar-icon group">
+//     {icon}
+//     <span class="sidebar-tooltip group-hover:scale-100">
+//       {text}
+//     </span>
+//   </div>
+// );
 
 
 const Divider = () => <hr className="sidebar-hr" />;

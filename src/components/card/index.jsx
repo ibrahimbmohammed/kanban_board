@@ -1,5 +1,5 @@
-import {BsCheckCircleFill, BsArrowUp, BsQuestionCircleFill} from "react-icons/bs";
-import {HiFlag} from "react-icons/hi";
+// import {BsCheckCircleFill, BsArrowUp, BsQuestionCircleFill} from "react-icons/bs";
+// import {HiFlag} from "react-icons/hi";
 
 const index = () => {
     return (
@@ -38,4 +38,3 @@ export default index
 
 
 //red
-{/* <svg width="14" height="15" fill="none" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" clipRule="evenodd" d="M0 3a3 3 0 0 1 3-3h10a1 1 0 0 1 .8 1.6L11.25 5l2.55 3.4A1 1 0 0 1 13 10H3a1 1 0 0 0-1 1v3a1 1 0 1 1-2 0V3Z" fill="#F76659"/></svg> */ }

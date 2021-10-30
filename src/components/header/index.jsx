@@ -1,14 +1,14 @@
-import React from "react";
-import { Link } from "react-router-dom";
+// import React from "react";
+// import { Link } from "react-router-dom";
 
-function Header({ children, openMenu }) {
-  const toggleSidebar = () => openMenu();
+// function Header({ children, openMenu }) {
+//   const toggleSidebar = () => openMenu();
 
-  return (
-    <>
-      hello world
-    </>
-  );
-}
+//   return (
+//     <>
+//       hello world
+//     </>
+//   );
+// }
 
-export default Header;
+// export default Header;
