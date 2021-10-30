@@ -9,7 +9,7 @@ const index = () => {
             <div className="flex justify-between mt-4">
                 <div className="flex space-x-2 items-center">
                     <span className="">
-                    <svg width="14" height="15" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0 3a3 3 0 0 1 3-3h10a1 1 0 0 1 .8 1.6L11.25 5l2.55 3.4A1 1 0 0 1 13 10H3a1 1 0 0 0-1 1v3a1 1 0 1 1-2 0V3Z" fill="#F76659"/></svg>
+                    <svg width="14" height="15" fill="none" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" clipRule="evenodd" d="M0 3a3 3 0 0 1 3-3h10a1 1 0 0 1 .8 1.6L11.25 5l2.55 3.4A1 1 0 0 1 13 10H3a1 1 0 0 0-1 1v3a1 1 0 1 1-2 0V3Z" fill="#F76659"/></svg>
                     </span>
                     <span className="">
                         <BsCheckCircleFill color="#808080"/>

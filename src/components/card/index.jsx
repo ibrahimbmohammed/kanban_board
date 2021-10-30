@@ -9,10 +9,10 @@ const index = () => {
             <div className="flex justify-between mt-4">
                 <div className="flex space-x-2 items-center">
                     <span className="">
-                        <svg width="14" height="14" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0 2a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2Zm11 1H3v8l4-2 4 2V3Z" fill="#47D16C" /></svg>
+                        <svg width="14" height="14" fill="none" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" clipRule="evenodd" d="M0 2a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2Zm11 1H3v8l4-2 4 2V3Z" fill="#47D16C" /></svg>
                     </span>
                     <span className="">
-                        <svg width="12" height="13" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M.293 12.707a1 1 0 0 1 0-1.414l5-5a1 1 0 0 1 1.414 0l5 5a1 1 0 0 1-1.414 1.414L6 8.414l-4.293 4.293a1 1 0 0 1-1.414 0Zm0-6a1 1 0 0 1 0-1.414l5-5a1 1 0 0 1 1.414 0l5 5a1 1 0 0 1-1.414 1.414L6 2.414 1.707 6.707a1 1 0 0 1-1.414 0Z" fill="#F76659" /></svg>
+                        <svg width="12" height="13" fill="none" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" clipRule="evenodd" d="M.293 12.707a1 1 0 0 1 0-1.414l5-5a1 1 0 0 1 1.414 0l5 5a1 1 0 0 1-1.414 1.414L6 8.414l-4.293 4.293a1 1 0 0 1-1.414 0Zm0-6a1 1 0 0 1 0-1.414l5-5a1 1 0 0 1 1.414 0l5 5a1 1 0 0 1-1.414 1.414L6 2.414 1.707 6.707a1 1 0 0 1-1.414 0Z" fill="#F76659" /></svg>
                     </span>
                     <span className="rounded-full bg-gray-300 w-6 h-6 text-center relative font-bold text-gray-600">
                         3
@@ -38,4 +38,4 @@ export default index
 
 
 //red
-{/* <svg width="14" height="15" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0 3a3 3 0 0 1 3-3h10a1 1 0 0 1 .8 1.6L11.25 5l2.55 3.4A1 1 0 0 1 13 10H3a1 1 0 0 0-1 1v3a1 1 0 1 1-2 0V3Z" fill="#F76659"/></svg> */ }
+{/* <svg width="14" height="15" fill="none" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" clipRule="evenodd" d="M0 3a3 3 0 0 1 3-3h10a1 1 0 0 1 .8 1.6L11.25 5l2.55 3.4A1 1 0 0 1 13 10H3a1 1 0 0 0-1 1v3a1 1 0 1 1-2 0V3Z" fill="#F76659"/></svg> */ }
