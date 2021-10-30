@@ -4,7 +4,7 @@ import {BsCheckCircleFill} from "react-icons/bs";
 const index = () => {
     return (
         <div className="flex flex-col justify-around my-shadow bg-white p-4 m-2 rounded-md">
-            <h3 className="font-normal"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores  explicabo?</h3>
+            <h3 className="font-normal text-sm"> Lorem ipsum dolor sit amet consect Asperiores  explicabo?</h3>
             <div className="inline-block w-auto mt-4"> <span className="font-semibold inline-block rounded-md bg-yellow-400 px-1 ">Refactoring</span></div>
             <div className="flex justify-between mt-4">
                 <div className="flex space-x-2 items-center">
