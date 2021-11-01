@@ -16,7 +16,9 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "react-toast-notifications": "^2.5.1",
+    "react-beautiful-dnd": "^13.0.0",
     "tailwind-scrollbar-hide": "^1.0.3",
+    "uuid": "^7.0.3",
     "web-vitals": "^1.1.2"
   },
   "scripts": {

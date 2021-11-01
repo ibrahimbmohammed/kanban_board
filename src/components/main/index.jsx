@@ -1,44 +1,36 @@
+import React, { useState, useContext } from "react";
+import { DragDropContext, Droppable } from 'react-beautiful-dnd';
+import { v4 as uuid } from 'uuid';
 import Card from "../../components/card"
 import CardS from "../../components/card2"
+import Board from "../../components/board";
+import StoreApi from '../../utils/storeApi';
 
-const  index = () => {
+
+function Index() {
+    const { data, addMoreCard, addMoreList, updateListTitle, setData, onDragEnd } = useContext(StoreApi);
     return (
-        <main className="w-auto mt-87 h-screen flex xl:ml-91 2xl:ml-96 overflow-auto ">
-            <div className="my w-1/4  flex-shrink-0 overflow-visible rounded-md bg-gray-150 mr-5 flex flex-col items-center scrollbar-hide ">
-                <h2 className="text-gray-400 font-bold m-4 self-start">TO DO</h2>
-                <Card/>
-                <CardS/>
-                <Card/>
-                <Card/>
-                <CardS/>
-                <Card/>
-            </div>
-            <div className="my w-1/4 h-screen flex-shrink-0 overflow-visible rounded-md bg-gray-150 mr-5  flex flex-col items-center">
-            <h2 className="text-gray-400 font-bold m-4 self-start">IN PROGRESS</h2>
-            <CardS/>
-                <Card/>
-                <CardS/>
-                <Card/>
-                <CardS/>
-                <Card/>
-            </div>
-            <div className="my w-1/4 flex-shrink-0  rounded-md bg-gray-150 mr-5  flex flex-col items-center">
-            <h2 className="text-gray-400 font-bold m-4 self-start">DONE</h2>
-            <Card/>
-                <CardS/>
-            </div> 
-            <div className="my w-1/4  flex-shrink-0 rounded-md bg-gray-150 mr-5  flex flex-col items-center">
-            <h2 className="text-gray-400 font-bold m-4 self-start">DONE</h2>
-            <CardS/>
-                <Card/>
-            </div>  
-            <div className="my w-1/4  flex-shrink-0 rounded-md bg-gray-150 mr-5  flex flex-col items-center">
-            <h2 className="text-gray-400 font-bold m-4 self-start">DONE</h2>
-            <CardS/>
-                <Card/>
-            </div>    
-        </main>
+        
+        
+        <DragDropContext onDragEnd={onDragEnd}>
+            <Droppable droppableId={uuid()} type="list" direction="horizontal">
+                {(provided) => (
+                    <main ref={provided.innerRef} {...provided.droppableProps} className="w-auto mt-87 h-screen flex xl:ml-91 2xl:ml-96 overflow-auto ">
+                        {data.listIds.map((listId, index) => {
+                            const list = data.lists[listId];
+                            return <Board list={list} key={listId} index={index} />
+                        })}
+                        {provided.placeholder}
+                    </main>
+                )}
+            </Droppable>
+        </DragDropContext>
+        
     )
 }
 
-export default index
+
+
+export default Index;
+
+

@@ -40,6 +40,10 @@ const SideBar = () => {
               </span>
               <h3> Reports</h3>
             </li>
+            <span className="divide-y divide-gray-500 inline-block text-gray-150">
+              _________________________
+              <hr className="bg-black mt-1 mb-1"/>
+            </span>
             <Divider/>
             <li className="my flex items-center justify-start hover:bg-blue-300 hover:text-blue-700 hover:font-semibold min-w-full rounded-md transition-opacity delay-100 ease-in" >
               <span className="mr-4 py-3 ml-2">
@@ -89,6 +93,11 @@ const SideBar = () => {
 // );
 
 
-const Divider = () => <hr className="sidebar-hr" />;
+//const Divider = () => <hr className="bg-gray-500 border border-b-2 z-50 divide-y divide-yellow-500" />;
+
+const Divider = () => <hr className="bg-black border border-black rounded-full mx-2" />;
+
+
+     
 
 export default SideBar;
