@@ -22,21 +22,21 @@ const SideBar = () => {
         {/* end of first div */}
         
           <ul className="list flex flex-col justify-start items-start mt-10 min-w-full ">
-            <li className="flex items-center justify-start hover:bg-blue-300 hover:text-blue-700 hover:font-semibold min-w-full rounded-md  transition-opacity delay-100 ease-in">
+            <li className="flex group items-center justify-start hover:bg-blue-300 hover:text-blue-700 hover:font-semibold min-w-full rounded-md  transition-opacity delay-100 ease-in">
               <span  className="mr-4 py-3 ml-2">
-                <FaBook color="#808080"/>
+                <FaBook  className="text-gray-350 group-hover:text-blue-700 group-hover:text-2xl"/>
               </span>
               <h3> Backlog</h3>
             </li>
-            <li className="my flex items-center justify-start hover:bg-blue-300 hover:text-blue-700 hover:font-semibold min-w-full rounded-md transition-opacity delay-100 ease-in">
+            <li className="group flex items-center justify-start hover:bg-blue-300 hover:text-blue-700 hover:font-semibold min-w-full rounded-md transition-opacity delay-100 ease-in">
               <span className="mr-4 py-3 ml-2">
-                <GiBookPile color="#808080"/>
+                <GiBookPile  className="text-gray-350 group-hover:text-blue-700 group-hover:text-2xl"/>
               </span>
               <h3> Active Sprint</h3>
             </li>
-            <li className="my flex items-center justify-start hover:bg-blue-300 hover:text-blue-700 hover:font-semibold min-w-full rounded-md transition-opacity delay-100 ease-in">
+            <li className="group flex items-center justify-start hover:bg-blue-300 hover:text-blue-700 hover:font-semibold min-w-full rounded-md transition-opacity delay-100 ease-in">
               <span className="mr-4 py-3 ml-2">
-              <MdShowChart color="#808080"/>
+              <MdShowChart  className="text-gray-350 group-hover:text-blue-700 group-hover:text-2xl"/>
               </span>
               <h3> Reports</h3>
             </li>
@@ -45,33 +45,33 @@ const SideBar = () => {
               <hr className="bg-black mt-1 mb-1"/>
             </span>
             <Divider/>
-            <li className="my flex items-center justify-start hover:bg-blue-300 hover:text-blue-700 hover:font-semibold min-w-full rounded-md transition-opacity delay-100 ease-in" >
+            <li className="group flex items-center justify-start hover:bg-blue-300 hover:text-blue-700 hover:font-semibold min-w-full rounded-md transition-opacity delay-100 ease-in" >
               <span className="mr-4 py-3 ml-2">
-                <RiStackFill color="#808080"/>
+                <RiStackFill  className="text-gray-350 group-hover:text-blue-700 group-hover:text-2xl"/>
               </span>
               <h3> Issues</h3>
             </li>
-            <li className="my flex items-center justify-start hover:bg-blue-300 hover:text-blue-700 hover:font-semibold min-w-full rounded-md transition-opacity delay-100 ease-in">
+            <li className="group flex items-center justify-start hover:bg-blue-300 hover:text-blue-700 hover:font-semibold min-w-full rounded-md transition-opacity delay-100 ease-in">
               <span className="mr-4 py-3 ml-2">
-                <IoExtensionPuzzle color="#808080"/>
+                <IoExtensionPuzzle  className="text-gray-350 group-hover:text-blue-700 group-hover:text-2xl"/>
               </span>
               <h3> Components</h3>
             </li>
-            <li className="my flex items-center justify-start hover:bg-blue-300 hover:text-blue-700 hover:font-semibold min-w-full rounded-md transition-opacity delay-100 ease-in" >
+            <li className="group flex items-center justify-start hover:bg-blue-300 hover:text-blue-700 hover:font-semibold min-w-full rounded-md transition-opacity delay-100 ease-in" >
               <span className="mr-4 py-3 ml-2">
-                <BsCodeSlash color="#808080"/>
+                <BsCodeSlash  className="text-gray-350 group-hover:text-blue-700 group-hover:text-2xl"/>
               </span>
               <h3> Code</h3>
             </li>
-            <li className="my flex items-center justify-start hover:bg-blue-300 hover:text-blue-700 hover:font-semibold min-w-full rounded-md transition-opacity delay-100 ease-in">
+            <li className="group flex items-center justify-start hover:bg-blue-300 hover:text-blue-700 hover:font-semibold min-w-full rounded-md transition-opacity delay-100 ease-in">
               <span className="mr-4 py-3 ml-2">
-                <BsFillFileCheckFill color="#808080"/>
+                <BsFillFileCheckFill  className="text-gray-350 group-hover:text-blue-700 group-hover:text-2xl"/>
               </span>
               <h3> Releases</h3>
             </li>
-            <li className="my flex items-center justify-start hover:bg-blue-300 hover:text-blue-700 hover:font-semibold min-w-full rounded-md">
+            <li className="group flex items-center justify-start hover:bg-blue-300 hover:text-blue-700 hover:font-semibold min-w-full rounded-md">
               <span className="mr-4 py-3 ml-2">
-                <IoIosCopy color="#808080"/>
+                <IoIosCopy  className="text-gray-350 group-hover:text-blue-700 group-hover:text-2xl"/>
               </span>
               <h3> Project Pages</h3>
             </li>
