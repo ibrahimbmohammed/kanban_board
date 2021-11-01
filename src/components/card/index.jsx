@@ -15,7 +15,7 @@ const Index = ({
             {(provided) => (
                       <div ref={provided.innerRef} {...provided.dragHandleProps} {...provided.draggableProps} className="flex flex-col justify-around my-shadow bg-white p-4 m-2 rounded-md">
                         <h3 className="font-normal text-sm">{card.title}</h3>
-                        <div className="inline-block w-auto mt-4"> <span className="font-semibold inline-block rounded-md bg-yellow-400 px-1 ">{badge}</span></div>
+                        <div className="inline-block w-auto mt-4"> <span className="font-semibold inline-block rounded-md bg-yellow-400 px-1 ">{card.badge}</span></div>
                         <div className="flex justify-between mt-4">
                             <div className="flex space-x-2 items-center">
                                 <span className="">

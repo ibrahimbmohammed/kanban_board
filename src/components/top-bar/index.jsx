@@ -10,7 +10,7 @@ const img5="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixid=Mn
 
 function index() {
     return (
-        <div className="flex  flex-col flex-grow  w-screen mr-8 max-h-42 mt-16  xl:ml-91 2xl:ml-96 justify-around fixed bg-white z-50">
+        <div className="flex  flex-col flex-grow  cus-width mr-8 max-h-42 mt-16  xl:ml-91 2xl:ml-96 justify-around fixed bg-white z-50">
             <div className="my flex items-center justify-start space-x-2">
                 <p className="text-gray-400">Projects</p>
                 <span className=""><MdOutlineKeyboardArrowRight color="#d3d3d3" /></span>

@@ -10,7 +10,7 @@ const App = () => {
   const [data, setData] = useState(mydata);
   //const [open, setOpen] = useState(false);
 
-  const [backgroundUrl, setBackgroundUrl] = useState('');
+
 
 
   const addMoreCard = (title, listId) => {
@@ -68,10 +68,9 @@ const App = () => {
   
   const onDragEnd = (result) => {
     const { destination, source, draggableId, type } = result;
-    console.log('destination', destination, 'source', source, draggableId, "type",type);
+    
     
     if (!destination) {
-      console.log("im here", destination, source,type)
       return;
     }
     if (type === 'list') {

@@ -28,7 +28,14 @@ module.exports = plugin.withOptions(() => {
               },
               '.my-shadow': {
                 boxShadow: "0px 0px 1px rgba(26, 32, 36, 0.32), 0px 1px 2px rgba(91, 104, 113, 0.32)"
-              }
+              },
+              '.my-width': {
+                width: "100%"
+              },
+              '.cus-width': {
+                width: "70vw"
+              },
+
 
 })
     }

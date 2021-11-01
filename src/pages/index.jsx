@@ -5,7 +5,7 @@ import Navbar from "../components/navbar"
 import SideBar from "../components/sidebarr";
 import  TopBar from "../components/top-bar";
 import Main from "../components/main";
-import {data as myData} from "../data/cardData";
+
 
 const Layout = () => {
     return (
